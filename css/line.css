@@ -1,0 +1,54 @@
+.element {
+  height: 2px;
+  width: 40vw;
+  background-color: deepskyblue;
+  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@-webkit-keyframes pulse {
+  0%, 100% {
+    background-color: deepskyblue;
+  }
+  50% {
+    background-color: deepskyblue;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: deepskyblue;
+  }
+  50% {
+    background-color: skyblue;
+  }
+}
+@-webkit-keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(150px, 0);
+  }
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(150px, 0);
+  }
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+html, body {
+  height: 100%;
+}
+
+
+
