@@ -104,6 +104,102 @@
     top: 0;}
 }
 
+/*geeks2*/
+.updown {
+  width: 0.5vw;
+  height: 0.3vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.updown::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4dd9d4;
+  animation: updown 5s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    top: 0;
+  }
+
+  80% {
+    top: 100%;
+  }
+
+  40% {
+    top: 0;}
+}
+/*updown1*/
+.updown1 {
+  width: 0.5vw;
+  height: 2vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.updown1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4dd9d4;
+  animation: updown1 5s linear infinite;
+}
+
+@keyframes updown1 {
+  0% {
+    top: 0;
+  }
+
+  80% {
+    top: 100%;
+  }
+
+  40% {
+    top: 0;}
+}
+
+
+/*updown2*/
+.updown2 {
+  width: 0.5vw;
+  height: 0.5vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.updown2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4dd9d4;
+  animation: updown2 5s linear infinite;
+}
+
+@keyframes updown2   {
+  0% {
+    top: 0;
+  }
+
+  80% {
+    top: 100%;
+  }
+
+  40% {
+    top: 0;}
+}
+
 
 /*upp*/
 .downn {
@@ -657,9 +753,6 @@
   width: 0.5vw;
   height: 6vw;
   position: absolute;
-  opacity: 80%;
-  left: 3%;
-  top: 25%;
   transform: translate(-50%, -50%);
 }
 
@@ -828,6 +921,104 @@
   }
 }
 @keyframes barline3 {
+  20% {
+    left: 0;
+  }
+
+  40% {
+    left: 100%;
+  }
+
+  80% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}/*3color*/
+.threecolor {
+  width: 2vw;
+  height: 0.3vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.threecolor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to right, deepskyblue,white,red);
+  /*background: #1bcce3;*/
+  animation: threecolor 10s linear infinite;
+}
+
+@keyframes threecolor {
+  10% {
+    left: 0;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes threecolor {
+  20% {
+    left: 0;
+  }
+
+  40% {
+    left: 100%;
+  }
+
+  80% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}
+/*4color*/
+
+.fourcolor{
+  width: 2vw;
+  height: 0.3vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.fourcolor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to right, #ec5412,#ec5412,white,red);
+  /*background: #1bcce3;*/
+  animation: fourcolor 10s linear infinite;
+}
+
+@keyframes fourcolor {
+  10% {
+    left: 0;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes fourcolor {
   20% {
     left: 0;
   }
@@ -1095,6 +1286,215 @@
   }
 }
 @keyframes bagline3 {
+  20% {
+    left: 0;
+  }
+
+  40% {
+    left: 100%;
+  }
+
+  80% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+/*4lines*/
+.fourline {
+  width: 13vw;
+  height: 0.1vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.fourline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*
+  background:linear-gradient(to right,blue,white,white);
+  */
+  background: #1bcce3;
+  animation: fourline 10s linear infinite;
+}
+
+@keyframes fourline {
+  10% {
+    left: 0;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes fourline {
+  20% {
+    left: 0;
+  }
+
+  40% {
+    left: 100%;
+  }
+
+  80% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+/*fourline1*/
+.fourline1 {
+  width: 3vw;
+  height: 0.1vw;
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+}
+
+.fourline1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*
+  background:linear-gradient(to right,blue,white,white);
+  */
+  background: #1bcce3;
+  animation: fourline1 10s linear infinite;
+}
+
+@keyframes fourline1 {
+  10% {
+    left: 0;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes fourline1 {
+  20% {
+    left: 0;
+  }
+
+  40% {
+    left: 100%;
+  }
+
+  80% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+/*fourline2*/
+.fourline2 {
+  width: 3vw;
+  height: 0.1vw;
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+}
+
+.fourline2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*
+  background:linear-gradient(to right,blue,white,white);
+  */
+  background: #1bcce3;
+  animation: fourline2 10s linear infinite;
+}
+
+@keyframes fourline2 {
+  10% {
+    left: 0;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes fourline2 {
+  20% {
+    left: 0;
+  }
+
+  40% {
+    left: 100%;
+  }
+
+  80% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}
+/*fourline3*/
+.fourline3 {
+  width: 3vw;
+  height: 0.1vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.fourline3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*
+  background:linear-gradient(to right,blue,white,white);
+  */
+  background: #1bcce3;
+  animation: fourline3 10s linear infinite;
+}
+
+@keyframes fourline3 {
+  10% {
+    left: 0;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes fourline3 {
   20% {
     left: 0;
   }
